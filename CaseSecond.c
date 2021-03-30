@@ -9,12 +9,7 @@ CaseSecond()
     "Ordinal=1",
 	LAST);
 	
-	web_reg_save_param_ex(
-    "ParamName=FirstClass", 
-    "LB/IC=A First class",
-    "RB/IC= for",
-    "Ordinal=all",
-	LAST);
+	web_reg_find("Text=A First class", "SaveCount=FirstClass_count", LAST);
 
 	web_url("welcome.pl", 
 		"URL={Host}/cgi-bin/welcome.pl?page=itinerary", 
