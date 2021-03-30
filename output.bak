@@ -1,0 +1,77 @@
+Virtual User Script started at: 30.03.2021 12:13:17
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (рту 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\79278\Desktop\andrei\Scripts\Task2\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action CaseFirst.
+CaseFirst.c(5): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+CaseFirst.c(5): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+CaseFirst.c(16): web_url("webtours") started  	[MsgId: MMSG-26355]
+CaseFirst.c(16): Detected non-resource "http://localhost:1080/webtours/header.html" in "http://localhost:1080/webtours/"  	[MsgId: MMSG-26574]
+CaseFirst.c(16): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/webtours/"  	[MsgId: MMSG-26574]
+CaseFirst.c(16): Found resource "http://localhost:1080/webtours/images/hp_logo.png" in HTML "http://localhost:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+CaseFirst.c(16): Found resource "http://localhost:1080/webtours/images/webtours.png" in HTML "http://localhost:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+CaseFirst.c(16): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+CaseFirst.c(16): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+CaseFirst.c(16): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+CaseFirst.c(16): web_url("webtours") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+CaseFirst.c(26): web_set_sockets_option started  	[MsgId: MMSG-26355]
+CaseFirst.c(26): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+CaseFirst.c(30): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+CaseFirst.c(30): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+CaseFirst.c(30): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+CaseFirst.c(30): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+CaseFirst.c(30): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+CaseFirst.c(30): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+CaseFirst.c(30): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+CaseFirst.c(30): web_submit_data("login.pl") was successful, 5779 body bytes, 2030 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+CaseFirst.c(49): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+CaseFirst.c(49): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+CaseFirst.c(49): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+CaseFirst.c(49): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+CaseFirst.c(49): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+CaseFirst.c(49): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+CaseFirst.c(49): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+CaseFirst.c(49): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+CaseFirst.c(49): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+CaseFirst.c(59): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+CaseFirst.c(59): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+CaseFirst.c(66): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+CaseFirst.c(66): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+CaseFirst.c(66): web_submit_data("reservations.pl") was successful, 2436 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+CaseFirst.c(92): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+CaseFirst.c(92): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+CaseFirst.c(92): Downloading resource "https://edge.microsoft.com/neededge/v1?bucket=6&customertype=1" (specified by argument number 32)  	[MsgId: MMSG-26577]
+CaseFirst.c(92): web_submit_data("reservations.pl_2") was successful, 210570 body bytes, 656 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+CaseFirst.c(114): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+CaseFirst.c(114): Found resource "http://localhost:1080/WebTours/images/bookanother.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+CaseFirst.c(114): web_submit_data("reservations.pl_3") was successful, 3266 body bytes, 658 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action CaseFirst.
+Starting action CaseSecond.
+CaseSecond.c(5): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+CaseSecond.c(5): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+CaseSecond.c(12): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+CaseSecond.c(12): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+CaseSecond.c(19): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+CaseSecond.c(19): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+CaseSecond.c(19): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+CaseSecond.c(19): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+CaseSecond.c(19): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+CaseSecond.c(19): Resource "http://localhost:1080/WebTours/images/home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+CaseSecond.c(19): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+CaseSecond.c(19): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+CaseSecond.c(19): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+CaseSecond.c(19): web_url("welcome.pl") was successful, 13728 body bytes, 1617 header bytes, 51 chunking overhead bytes  	[MsgId: MMSG-26385]
+CaseSecond.c(28): First ticket price $ 350
+CaseSecond.c(30): Number of first class tickets : 3
+Ending action CaseSecond.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
